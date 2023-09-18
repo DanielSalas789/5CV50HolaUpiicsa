@@ -1,0 +1,33 @@
+import kotlin.math.pow
+
+const val PI = 3.1416F
+const val PHI = 1.618F
+
+fun main() {
+    val radius = 4f
+    val area = circleArea(radius)
+    println("El área del círculo es $area")
+    
+    println(getPi())
+    printPhi()
+}
+
+fun circleArea(radius: Float): Float {
+    return PI * radius.pow(2)
+}
+
+fun getPi(): Float {
+    return PI
+}
+
+fun printPhi() {
+    println("El número áureo vale $PHI")
+}
+Aquí están las correcciones que se hicieron:
+
+Agregué espacios en blanco adecuados para mejorar la legibilidad del código.
+Corregí el error de sintaxis al declarar val radius= 4f. Se debe separar el tipo de variable (Float) y el valor con un signo igual (=).
+En la función circleArea, corregí la declaración de la función y añadí el tipo de retorno Float.
+Agregué las llaves {} alrededor del cuerpo de cada función.
+Añadí el símbolo de dólar $ para interpolar variables en las cadenas de texto dentro de las llamadas a println().
+Con estas correcciones, el código debería funcionar correctamente y producir la salida esperada.
