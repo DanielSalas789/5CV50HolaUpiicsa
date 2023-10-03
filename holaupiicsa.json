@@ -1,9 +1,0 @@
-{
-    "version": "1.9.10",
-    "platform": "java",
-    "args": "",
-    "noneMarkers": true,
-    "theme": "idea",
-    "code": "/**\n * You can edit, run, and share this code.\n * play.kotlinlang.org\n */\nfun main() {\n    val nombre = \"Daniel\"\n    \n    println(\"Hello UPIICSA\")\n    \n    println(\"hola mi nombre es $nombre\")\n}",
-    "alg": "HS256"
-}
