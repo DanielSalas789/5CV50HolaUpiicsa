@@ -1,0 +1,9 @@
+{
+    "version": "1.9.10",
+    "platform": "java",
+    "args": "",
+    "noneMarkers": true,
+    "theme": "idea",
+    "code": "//PARTE 1\nconst val number1 = 1\nconst val number2 = 8\nfun main() {\n    val number1 = 1\n    println(number1)\n    print (number2)\n}\n\n\n"
+    
+}
